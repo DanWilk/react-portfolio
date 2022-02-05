@@ -11,3 +11,206 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+
+}
+
+h1, h2 {
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+header {
+  background-color: #273043;
+}
+
+a {
+  text-decoration: none;
+  color: #EFF6EE;
+  text-align: center;
+}
+
+ul {
+  padding-inline-start: 10%;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.nav-items {
+  margin: 5px auto;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: #F02D3A;
+  border-radius: 5px;
+  color: #EFF6EE;
+}
+
+.form-inputs {
+  width: 90%;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.form-submit {
+  width: 50%;
+  margin: 5px auto;
+  font-size: 20px;
+  text-align: center;
+  background-color: #F02D3A;
+  border-radius: 5px;
+  color: #EFF6EE;
+}
+
+.body-text {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  color: #EFF6EE;
+}
+
+.text {
+  color: #EFF6EE;
+}
+
+.body {
+  background-color: #9197AE;
+  height: 100vh;
+  margin: 0;
+}
+
+.portfolio-image {
+  flex: 1 60%;
+  width: 85vw;
+  height: 20vh;
+  border-radius: 15px;
+}
+
+.image-container {
+  text-align: center;
+  margin: 10px;
+}
+
+.image-text {
+  font-size: 18px;
+  margin: auto;
+}
+
+.portfolio-container {
+  text-align: center;
+}
+
+.github-link {
+  margin: auto;
+  font-size: 20px;
+  width: 50vw;
+}
+
+.resume-list {
+  margin: auto;
+  padding: 10px;
+  text-align: initial;
+}
+
+.resume-list-item {
+  padding-left: 25px;
+}
+
+.lg-button {
+  width: 100%;
+}
+
+.error {
+  margin: auto;
+}
+
+@media screen and (min-width: 600px){
+  header {
+    min-height: 20vh;
+  }
+
+  label.message {
+    float: left;
+  }
+
+  .lg-body-text {
+    width: 60vw;
+    text-align: left;
+    margin: auto;
+  }
+
+  .lg-nav {
+    width: 60%;
+  }
+
+  .nav-items {
+    height: 30%;
+    width: 20%;
+    margin: auto;
+    font-size: 30px;
+  }
+
+  .portfolio-image {
+    width: 40vw;
+    height: 30vh;
+  }
+
+  .image-container {
+    text-align: center;
+    padding: 12px;
+  }
+
+  .image-text {
+    width: 20vw;
+  }
+
+  .github-link {
+    width: 20vw;
+  }
+
+  .lg-body-con {
+    justify-content: space-evenly;
+  }
+
+  .form-inputs {
+    width: 60%;
+    text-align: left;
+    margin: auto;
+    float: none;
+  }
+
+  .form-submit {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .error {
+    width: 60%;
+    text-align: left;
+    margin: auto;
+  }
+
+  .message {
+    height: 100%;
+  }
+
+  .lg-button {
+    width: 40vw;
+    text-align: left;
+    margin: auto;
+  }
+}
