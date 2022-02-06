@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.5da5072a.css",
+    "main.js": "/react-portfolio/static/js/main.4d36df1c.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/band-gogh.PNG": "/react-portfolio/static/media/band-gogh.c6e97dbd766ad1e1ce78.PNG",
+    "static/media/Resume.docx": "/react-portfolio/static/media/Resume.22389c1eee18fde7e64c.docx",
+    "static/media/my-profile.jpg": "/react-portfolio/static/media/my-profile.06a9bb04410eb5942e23.jpg",
+    "static/media/weather-app.JPG": "/react-portfolio/static/media/weather-app.6e8b81ee4a9eb4c17202.JPG",
+    "static/media/lorem-sipsum.JPG": "/react-portfolio/static/media/lorem-sipsum.757a1012489fe769a7bf.JPG",
+    "index.html": "/react-portfolio/index.html",
+    "main.5da5072a.css.map": "/react-portfolio/static/css/main.5da5072a.css.map",
+    "main.4d36df1c.js.map": "/react-portfolio/static/js/main.4d36df1c.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5da5072a.css",
+    "static/js/main.4d36df1c.js"
+  ]
+}
