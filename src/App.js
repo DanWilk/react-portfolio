@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import Footer from './components/Footer'
 
 function App() {
 
@@ -25,7 +26,7 @@ const [currentPage, setCurrentPage] = useState(pages[0]);
          currentPage === 'Portfolio' ? (<Portfolio/>) : 
         (<ContactForm/>) }
       </main>
-      
+      <Footer />
     </div>
   );
 }

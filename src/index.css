@@ -42,9 +42,31 @@ li {
   list-style: none;
 }
 
+footer {
+  background-color: #273043; 
+}
+
+.link-in {
+  width: 64px;
+  height: 64px;
+}
+
+.link-container {
+  margin: auto;
+  text-align: center;
+  width: 50vw;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.profile-img {
+  height: 300px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 50%;
 }
 
 
@@ -119,14 +141,23 @@ li {
   width: 50vw;
 }
 
+.resume-link-text {
+  color: blue;
+}
+
+.resume-link {
+  width: 90vw;
+}
 .resume-list {
   margin: auto;
   padding: 10px;
   text-align: initial;
+  width: 90vw;
 }
 
 .resume-list-item {
   padding-left: 25px;
+  font-size: 16px;
 }
 
 .lg-button {
@@ -140,6 +171,12 @@ li {
 @media screen and (min-width: 600px){
   header {
     min-height: 20vh;
+  }
+
+  h1 {
+      margin: auto 0 auto 0;
+      width: 45vw;
+      text-align: left;
   }
 
   label.message {
@@ -213,4 +250,9 @@ li {
     text-align: left;
     margin: auto;
   }
+
+  .resume-list {
+    width: 30vw;
+  }
+
 }
