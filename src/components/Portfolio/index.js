@@ -21,6 +21,13 @@ const images = [
         tech: 'html, css, javascript, third-party api',
         link: 'https://danwilk.github.io/weather-app/',
         githubLink: 'https://github.com/DanWilk/weather-app'
+    },
+    {
+        imgSrc: 'gregs-list.PNG',
+        title: "Greg's List",
+        tech: 'MERN, GraphQl, Chakra UI',
+        link: 'https://gregs-list-1.herokuapp.com/',
+        githubLink: 'https://github.com/mtlankenau/gregs-list'
     }
 ]
 
