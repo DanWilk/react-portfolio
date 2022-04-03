@@ -5,7 +5,7 @@ const images = [
         imgSrc: 'band-gogh.PNG',
         title: 'Band-Gogh',
         tech: 'handlebars, css, javascript, node.js, express.js',
-        link: 'https://band-gogh.herokuapp.com/',
+        link: 'https://github.com/DanWilk/band-gogh',
         githubLink: 'https://github.com/SamuraiHuey/band-gogh'
     },
     {
@@ -13,7 +13,7 @@ const images = [
         title: 'Lorem-Sipsum',
         tech: 'html, css, javascript, third-party api',
         link: 'https://cshepscorp.github.io/lorem-sipsum/',
-        githubLink: 'https://github.com/cshepscorp/lorem-sipsum'
+        githubLink: 'https://github.com/DanWilk/lorem-sipsum'
     },
     {
         imgSrc: 'weather-app.JPG',
@@ -27,7 +27,7 @@ const images = [
         title: "Greg's List",
         tech: 'MERN, GraphQl, Chakra UI',
         link: 'https://gregs-list-1.herokuapp.com/',
-        githubLink: 'https://github.com/mtlankenau/gregs-list'
+        githubLink: 'https://github.com/DanWilk/gregs-list'
     }
 ]
 
