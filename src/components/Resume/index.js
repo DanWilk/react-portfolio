@@ -3,7 +3,7 @@ import React from 'react';
 function Resume() {
     return (
         <div className='body-text flex-row'>
-            <span className='resume-link'>download my resume <a className='resume-link-text'href={require('../../assets/resume/Resume.docx')}>here</a></span>
+            <span className='resume-link'>download my resume <a className='resume-link-text'href={require('../../assets/resume/Daniel_Wilkinson_Resume (3).pdf')}>here</a></span>
             <ul className='resume-list'>
                 <p>Front-End Skills: {'{'}
                     <li className='resume-list-item'>HTML</li>
