@@ -252,7 +252,16 @@ footer {
   }
 
   .resume-list {
-    width: 30vw;
+   text-align: center;
+   font-size: 30px;
+  }
+
+  .resume-list-item {
+    font-size: 23px;
+  }
+
+  .body-text {
+    font-size: 25px;
   }
 
 }

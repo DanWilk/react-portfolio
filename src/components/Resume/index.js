@@ -25,7 +25,7 @@ function Resume() {
                 </p>
             </ul>
             <ul className='resume-list'>
-                <p> Personal Traits: {'{'}
+                <p> Soft Skills: {'{'}
                     <li className='resume-list-item'>Proficient at Troubleshooting</li>
                     <li className='resume-list-item'>Working with a team</li>
                     <li className='resume-list-item'>Understanding documentation</li>
