@@ -5,8 +5,8 @@ const images = [
         imgSrc: 'band-gogh.PNG',
         title: 'Band-Gogh',
         tech: 'handlebars, css, javascript, node.js, express.js',
-        link: 'https://github.com/DanWilk/band-gogh',
-        githubLink: 'https://github.com/SamuraiHuey/band-gogh'
+        link: 'https://band-gogh.herokuapp.com/',
+        githubLink: 'https://github.com/DanWilk/band-gogh'
     },
     {
         imgSrc: 'lorem-sipsum.JPG',
