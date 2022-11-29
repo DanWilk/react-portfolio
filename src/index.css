@@ -34,8 +34,9 @@ a {
 }
 
 ul {
-  padding-inline-start: 10%;
+  padding: initial;
   text-align: center;
+  margin: auto;
 }
 
 li {
@@ -44,6 +45,10 @@ li {
 
 footer {
   background-color: #273043; 
+  position:sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .link-in {
@@ -112,6 +117,7 @@ footer {
   background-color: #9197AE;
   height: 100vh;
   margin: 0;
+  overflow-y: scroll;
 }
 
 .portfolio-image {
